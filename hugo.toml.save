@@ -1,4 +1,4 @@
-baseURL = "https://KatyaZubareva.github.io/web-portfolio/"
+base.io/web-portfolio
 languageCode = "en-us"
 title = "My Portfolio"
 theme = "PaperMod"
