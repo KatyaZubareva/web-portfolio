@@ -31,6 +31,8 @@ git status
 # No commits yet
 ```
 
+![Создание README](assets/first.png)
+
 ---
 
 ### 2.2 Создание файла и первый коммит
@@ -48,6 +50,8 @@ git log --oneline
 # a1b2c3d Initial commit with README
 ```
 
+![Создание README](assets/second.png)
+
 ---
 
 ### 2.3 Создание ветки и переключение на неё
@@ -64,6 +68,8 @@ git branch
 # main
 # * feature-1
 ```
+
+![Создание README](assets/third.png)
 
 ---
 
@@ -99,6 +105,8 @@ git log --oneline
 # b2c3d4e Add feature-1 changes
 # a1b2c3d Initial commit with README
 ```
+
+![Создание README](assets/fourth.png)
 
 ---
 
