@@ -2,7 +2,7 @@
 
 ## 1. Используемый инструмент
 
-Для выполнения задания использовался **GitHub Desktop** (альтернатива командной строке для работы с Git).  
+Для выполнения задания использовался **GitHub Desktop**.  
 Также установлен **Git CLI** для проверки базовых команд.
 
 - Git: `git version 2.42.0`  
@@ -11,9 +11,9 @@
 
 ---
 
-## 2. Действия, повторяющие скринкаст
+## 1. Выполнены действия, повторяющие скринкаст в консоли VS Code
 
-### 2.1 Инициализация репозитория
+### 1.1 Инициализация репозитория
 
 Командная строка:
 
@@ -35,7 +35,7 @@ git status
 
 ---
 
-### 2.2 Создание файла и первый коммит
+### 1.2 Создание файла и первый коммит
 
 ```bash
 echo "Hello Git" > README.md
@@ -43,18 +43,33 @@ git add README.md
 git commit -m "Initial commit with README"
 ```
 
-Состояние:
-
-```bash
-git log --oneline
-# a1b2c3d Initial commit with README
-```
 
 ![Создание README](assets/second.png)
 
 ---
 
-### 2.3 Создание ветки и переключение на неё
+### 1.3 Работа с удалённым репозиторием и внесение изменений
+
+1. Создан репозиторий на GitHub:  
+   `https://github.com/USERNAME/demo-git.git`
+2. Привязка удалённого репозитория:
+
+```bash
+git remote add origin https://github.com/USERNAME/demo-git.git
+git push -u origin main
+```
+
+```bash
+echo "Some feature work" >> README.md
+git add README.md
+git commit -m "Add feature-1 changes"
+```
+
+![Создание README](assets/third.png)
+
+---
+
+### 1.4 Внесение изменений и коммит в новой ветке и слияние ветки feature-1 в main
 
 ```bash
 git branch feature-1
@@ -68,30 +83,6 @@ git branch
 # main
 # * feature-1
 ```
-
-![Создание README](assets/third.png)
-
----
-
-### 2.4 Внесение изменений и коммит в новой ветке
-
-```bash
-echo "Some feature work" >> README.md
-git add README.md
-git commit -m "Add feature-1 changes"
-```
-
-Состояние:
-
-```bash
-git log --oneline
-# b2c3d4e Add feature-1 changes
-# a1b2c3d Initial commit with README
-```
-
----
-
-### 2.5 Слияние ветки feature-1 в main
 
 ```bash
 git checkout main
@@ -110,28 +101,7 @@ git log --oneline
 
 ---
 
-### 2.6 Работа с удалённым репозиторием
-
-1. Создан репозиторий на GitHub:  
-   `https://github.com/USERNAME/demo-git.git`
-2. Привязка удалённого репозитория:
-
-```bash
-git remote add origin https://github.com/USERNAME/demo-git.git
-git push -u origin main
-```
-
-Состояние:
-
-```bash
-git remote -v
-# origin https://github.com/USERNAME/demo-git.git (fetch)
-# origin https://github.com/USERNAME/demo-git.git (push)
-```
-
----
-
-## 3. Использование GitHub Desktop
+## 2. Использование GitHub Desktop
 
 - Репозиторий открыт через GitHub Desktop: `File → Add Local Repository → demo-git`.
 - Возможности GUI:
@@ -144,9 +114,21 @@ git remote -v
   - наглядное сравнение изменений  
   - простое слияние веток без командной строки
 
+![Создание README](assets/1.png)
+![Создание README](assets/2.png)
+![Создание README](assets/3.png)
+![Создание README](assets/4.png)
+![Создание README](assets/5.png)
+![Создание README](assets/6.png)
+![Создание README](assets/7.png)
+![Создание README](assets/8.png)
+![Создание README](assets/9.png)
+![Создание README](assets/10.png)
+![Создание README](assets/11.png)
+
 ---
 
-## 4. Выводы
+## 3. Выводы
 
 - Git позволяет управлять версионностью проекта, создавать ветки, сливать их и работать с удалёнными репозиториями.  
 - Десктопный клиент **GitHub Desktop** удобен для наглядного контроля изменений и коммитов без сложных команд.  
