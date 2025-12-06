@@ -1,7 +1,18 @@
 baseURL = "https://KatyaZubareva.github.io/web-portfolio/"
 languageCode = "en-us"
-title = "My Portfolio"
+title = "Portfolio"
 theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
 
 [pagination]
   pagerSize = 10

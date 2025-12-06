@@ -1,6 +1,6 @@
 base.io/web-portfolio
 languageCode = "en-us"
-title = "My Portfolio"
+title = "Portfolio"
 theme = "PaperMod"
 
 [pagination]
