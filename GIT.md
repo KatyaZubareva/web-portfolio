@@ -89,14 +89,6 @@ git checkout main
 git merge feature-1
 ```
 
-Состояние:
-
-```bash
-git log --oneline
-# b2c3d4e Add feature-1 changes
-# a1b2c3d Initial commit with README
-```
-
 ![Создание README](assets/fourth.png)
 
 ---
