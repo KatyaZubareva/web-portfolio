@@ -1,17 +1,17 @@
 baseURL = "https://KatyaZubareva.github.io/web-portfolio/"
 languageCode = "en-us"
-title = "Portfolio"
+title = "Портфолио"
 theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "About"
+    name = "Обо мне"
     url = "/about/"
     weight = 1
 
   [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
+    name = "HTTP"
+    url = "/http/"
     weight = 2
 
 [pagination]
@@ -19,3 +19,15 @@ theme = "PaperMod"
 
 [params]
   author = "Катя Зубарева"
+  defaultTheme = "auto"
+  showPosts = false
+
+  [params.homeInfoParams]
+    Title = "🌺 Добро пожаловать!"
+    Content = """
+Меня зовут **Екатерина**.  
+Я UI/UX дизайнер и разработчик цифровых продуктов.
+
+Создаю понятные интерфейсы, продуманные пользовательские сценарии  
+и визуальные решения, которые работают на результат.
+"""

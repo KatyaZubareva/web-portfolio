@@ -2,24 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/web-portfolio/</loc>
-    <lastmod>2025-11-19T23:25:53+03:00</lastmod>
+    <loc>https://KatyaZubareva.github.io/web-portfolio/about/</loc>
+    <lastmod>2025-12-06T13:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/posts/</loc>
-    <lastmod>2025-11-19T23:25:53+03:00</lastmod>
+    <loc>https://KatyaZubareva.github.io/web-portfolio/</loc>
+    <lastmod>2025-12-06T13:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/posts/project1/</loc>
-    <lastmod>2025-11-19T23:25:53+03:00</lastmod>
+    <loc>https://KatyaZubareva.github.io/web-portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/posts/project2/</loc>
-    <lastmod>2025-11-19T23:25:53+03:00</lastmod>
+    <loc>https://KatyaZubareva.github.io/web-portfolio/http/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-portfolio/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/web-portfolio/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/web-portfolio/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/web-portfolio/tags/</loc>
+    <loc>https://KatyaZubareva.github.io/web-portfolio/tags/</loc>
   </url>
 </urlset>
