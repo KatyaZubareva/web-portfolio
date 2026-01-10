@@ -24,8 +24,6 @@ theme = "PaperMod"
 
   [params.homeInfoParams]
     Title = "🌺 Добро пожаловать!"
-    Image = "/images/me.jpg"
-    ImageAlt = "Фото Екатерины"
     Content = """
 Меня зовут **Екатерина**.  
 Я UI/UX дизайнер и разработчик цифровых продуктов.
