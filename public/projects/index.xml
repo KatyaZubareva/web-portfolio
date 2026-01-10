@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Портфолио</title>
-    <link>https://KatyaZubareva.github.io/web-portfolio/</link>
-    <description>Recent content on Портфолио</description>
+    <title>Projects on Портфолио</title>
+    <link>https://KatyaZubareva.github.io/web-portfolio/projects/</link>
+    <description>Recent content in Projects on Портфолио</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Dec 2025 13:00:00 +0300</lastBuildDate>
-    <atom:link href="https://KatyaZubareva.github.io/web-portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://KatyaZubareva.github.io/web-portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Medixy AI Assistant</title>
       <link>https://KatyaZubareva.github.io/web-portfolio/projects/project1/</link>
@@ -39,33 +39,6 @@
 Интерактивные элементы: кнопки, модальные окна, уведомления и предупреждения (например, о cookies).
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>Обо мне</title>
-      <link>https://KatyaZubareva.github.io/web-portfolio/about/</link>
-      <pubDate>Sat, 06 Dec 2025 13:00:00 +0300</pubDate>
-      <guid>https://KatyaZubareva.github.io/web-portfolio/about/</guid>
-      <description>&lt;p&gt;Я занимаюсь разработкой цифровых продуктов, сочетая &lt;strong&gt;веб-разработку&lt;/strong&gt;, &lt;strong&gt;дизайн&lt;/strong&gt; и &lt;strong&gt;data science&lt;/strong&gt;.&lt;br&gt;
-Мой фокус — создание понятных, устойчивых и масштабируемых решений, ориентированных на практическое применение и удобство пользователей.&lt;/p&gt;
-&lt;p&gt;Я работаю с проектами полного цикла: от формулировки задачи и проектирования до реализации, анализа и дальнейшего развития решений.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;основные-направления-деятельности&#34;&gt;Основные направления деятельности&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;разработка веб-приложений и интерфейсов&lt;/li&gt;
-&lt;li&gt;проектирование пользовательского опыта и визуальных решений&lt;/li&gt;
-&lt;li&gt;анализ и визуализация данных&lt;/li&gt;
-&lt;li&gt;применение методов машинного обучения в прикладных задачах&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;подход-к-работе&#34;&gt;Подход к работе&lt;/h3&gt;
-&lt;p&gt;В работе придерживаюсь структурного и аналитического подхода.&lt;br&gt;
-Считаю важными аккуратную архитектуру, читаемый код, воспроизводимость решений и ориентацию на конечного пользователя.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>HTTP Protocol. Client–Server Interaction</title>
-      <link>https://KatyaZubareva.github.io/web-portfolio/http/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://KatyaZubareva.github.io/web-portfolio/http/</guid>
-      <description>Практическая работа по изучению HTTP-запросов и инструментов взаимодействия с API</description>
     </item>
   </channel>
 </rss>
