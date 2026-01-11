@@ -57,7 +57,7 @@ Host: jsonplaceholder.typicode.com
 **Задачи:** передача данных в теле HTTP-запроса, работа с заголовками.
 **Инструменты:** netcat.
 
-** Пример запроса через netcat: **
+**Пример запроса через netcat:**
 
 ```
 nc jsonplaceholder.typicode.com 80
